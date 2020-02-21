@@ -16,7 +16,7 @@ const usersTable = users => {
             </thead>
             <tbody>
             {
-                users.data.map(user => (
+                users.filtered.map(user => (
                     <tr key={user.id}>
                         <th scope="row">{user.id}</th>
                         <td>

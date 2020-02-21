@@ -9,7 +9,8 @@ const initialState = {
     },
     status: "INITIAL",
     users: {
-        data: []
+        data: [],
+        filtered: []
     }
 };
 
